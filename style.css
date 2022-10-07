@@ -1,0 +1,35 @@
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #333;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+}
+.tooltip {
+    position: fixed;
+    display: none;
+    border-bottom: 1px dotted black;
+    font-size: 13px;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+h1 {
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 40px;
+    
+}
+h4 {
+    font-weight: bold;
+    margin-left: 20px;
+    color: rgb(124, 124, 124);
+    font-size: 20px;
+}
